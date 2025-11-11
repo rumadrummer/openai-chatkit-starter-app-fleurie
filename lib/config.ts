@@ -10,7 +10,7 @@ export const STARTER_PROMPTS: StartScreenPrompt[] = [
   {
     label: "Was ist die Brocanterie Fleurie?",
     prompt: "Erzähl mir bitte, was die Brocanterie Fleurie ist.",
-    icon: "sparkle", // ✅ korrektes Icon
+    icon: "sparkle", // wichtig: ohne "s"
   },
   {
     label: "Öffnungszeiten & Kontakt",
@@ -45,6 +45,6 @@ export const getThemeConfig = (theme: ColorScheme): ThemeOption => ({
     },
   },
   radius: "round",
-  // Weitere Optionen unter: chatkit.studio/playground
 });
+
 
