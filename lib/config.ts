@@ -47,3 +47,4 @@ export const getThemeConfig = (theme: ColorScheme): ThemeOption => ({
   radius: "round",
   // Weitere Optionen unter: chatkit.studio/playground
 });
+
