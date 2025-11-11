@@ -5,22 +5,19 @@ export const WORKFLOW_ID =
 
 export const CREATE_SESSION_ENDPOINT = "/api/create-session";
 
-// 🌸 Start-Screen Buttons (deutsche Version, mit gültigen Icons)
+// 🌸 Start-Screen Buttons (deutsche Version, ohne Icons = kein Fehler)
 export const STARTER_PROMPTS: StartScreenPrompt[] = [
   {
     label: "Was ist die Brocanterie Fleurie?",
     prompt: "Erzähl mir bitte, was die Brocanterie Fleurie ist.",
-    icon: "sparkle", // WICHTIG: ohne "s"
   },
   {
     label: "Öffnungszeiten & Kontakt",
     prompt: "Wann habt ihr geöffnet und wie kann ich euch erreichen?",
-    icon: "clock",
   },
   {
     label: "Café & Sortiment",
     prompt: "Was bietet ihr im Café und an Brocante-Artikeln an?",
-    icon: "shop",
   },
 ];
 
@@ -46,5 +43,6 @@ export const getThemeConfig = (theme: ColorScheme): ThemeOption => ({
   },
   radius: "round",
 });
+
 
 
