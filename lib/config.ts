@@ -8,16 +8,16 @@ export const CREATE_SESSION_ENDPOINT = "/api/create-session";
 // 🌸 Start-Screen Buttons (deutsche Version, ohne Icons = kein Fehler)
 export const STARTER_PROMPTS: StartScreenPrompt[] = [
   {
-    label: "Was ist die Brocanterie Fleurie?",
-    prompt: "Erzähl mir bitte, was die Brocanterie Fleurie ist.",
+    label: "Konzerte",
+    prompt: "Wann und wo spielt Ruedi als Nächstes live? Bitte die nächsten Konzerte von Silverhead, Polo Sélection und John & John Xpanded prüfen.",
   },
   {
-    label: "Öffnungszeiten & Kontakt",
-    prompt: "Wann habt ihr geöffnet und wie kann ich euch erreichen?",
+    label: "Bands buchen",
+    prompt: "Können wir dich oder deine Bands für ein Event buchen? Bitte erkläre kurz die Möglichkeiten und wie man dich erreichen kann.",
   },
   {
-    label: "Café & Sortiment",
-    prompt: "Was bietet ihr im Café und an Brocante-Artikeln an?",
+    label: "Schlagzeugunterricht",
+    prompt: "Unterrichtest du auch Erwachsene am Schlagzeug? Bitte erkläre wo, wie und wie man dich kontaktieren kann.",
   },
 ];
 
